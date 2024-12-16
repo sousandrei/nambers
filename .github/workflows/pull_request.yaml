@@ -23,12 +23,9 @@ jobs:
 
       - run: npm install
         name: npm Install
-        working-directory: client
 
       - run: npm run build
         name: npm Build
-        working-directory: client
 
       - run: npx biome check
         name: biome check
-        working-directory: client
